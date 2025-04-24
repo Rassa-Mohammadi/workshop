@@ -5,6 +5,6 @@ int main()
     int a = 5; // ijad taghir
     ptinf("%d\n", a);
     printf("Hello World!\n");
-    prinf("SALAM");
+    printf("Bonjour")
     return 0;
 }
