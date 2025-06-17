@@ -14,10 +14,10 @@ public class Backpack extends Tool {
     private ArrayList<Stacks> items = new ArrayList<>();
 
     public Backpack(ToolType backpackType) {
-        StackLevel level = backpackType.getLevel();
-        int energyUsage = 0;
-        this.capacity = ToolType.getBackpackCapacity(backpackType);
-        super(level, energyUsage, backpackType.getName(), backpackType);
+//        StackLevel level = ;
+//        int energyUsage = 0;
+//        this.capacity = ToolType.getBackpackCapacity(backpackType);
+        super(backpackType.getLevel(), 0, backpackType.getName(), backpackType);
     }
 
     public List<Stacks> getItems() {
